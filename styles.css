@@ -10,8 +10,8 @@
   --color-cyan: hsl(178, 100%, 50%);
 
   /* Neutral Colors */
-  --color-very-dark-blue-main-bg: hsl(217, 54%, 11%);
-  --color-very-dark-blue-card-bg: hsl(216, 50%, 16%);
+  --color-very-dark-blue-main-bg: hsl(221, 51%, 7%);
+  --color-very-dark-blue-card-bg: hsl(215, 51%, 14%);
   --color-very-dark-blue-line: hsl(215, 32%, 27%);
   --color-white: hsl(0, 0%, 100%);
 }
@@ -42,6 +42,7 @@ body {
   background-color: var(--color-very-dark-blue-card-bg);
   border-radius: 8px;
   align-items: flex-start;
+  box-shadow: 0px 8px 59px 39px rgba(12, 21, 40, 0.75);
 }
 
 .hero .image {
@@ -68,6 +69,7 @@ body {
   color: var(--color-white);
   font-weight: 600;
   font-size: 1.125rem;
+  letter-spacing: 0.7px;
 }
 
 .main-text p {
@@ -137,11 +139,4 @@ body {
 em {
   font-style: normal;
   color: var(--color-white);
-}
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
