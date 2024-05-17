@@ -22,6 +22,7 @@ body {
   height: 100vh;
   width: 100vw;
   font-size: 1.125rem;
+  overflow: hidden;
 }
 
 .hero {
@@ -29,18 +30,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 70%;
 
-  margin: 200px 0;
-  border: 2px solid red;
+  margin: 130px 0;
 }
 
 .main-part {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 20%;
   background-color: var(--color-very-dark-blue-card-bg);
-  border: 2px solid red;
+  border-radius: 8px;
   align-items: flex-start;
 }
 
@@ -51,8 +50,8 @@ body {
 }
 
 .hero .image img {
-  width: 85%;
-  /* padding-top: 20px; */
+  width: 90%;
+  margin-top: 20px;
   border-radius: 8px;
 }
 
@@ -60,8 +59,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border: 2px solid red;
-  width: 85%;
+
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -76,6 +75,31 @@ body {
   opacity: 0.6;
   font-size: 1.125rem;
   margin: 0;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(47, 65, 91, 0.1);
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.avatar img {
+  width: 40px;
+  padding-right: 20px;
+}
+
+.avatar p {
+  display: inline-block;
 }
 
 .attribution {
