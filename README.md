@@ -45,5 +45,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jchiwaii)
-- Twitter - [@yourusername](https://www.twitter.com/jchiwaii)
+- Frontend Mentor - [@jchiwaii](https://www.frontendmentor.io/profile/jchiwaii)
+- Twitter - [@jchiwaii](https://www.twitter.com/jchiwaii)
