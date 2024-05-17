@@ -38,6 +38,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 20%;
+  min-width: 375px;
   background-color: var(--color-very-dark-blue-card-bg);
   border-radius: 8px;
   align-items: flex-start;
@@ -50,7 +51,7 @@ body {
 }
 
 .hero .image img {
-  width: 90%;
+  width: 88%;
   margin-top: 20px;
   border-radius: 8px;
 }
@@ -59,8 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
-  width: 90%;
+  width: 88%;
   margin: 0 auto;
 }
 
@@ -72,36 +72,72 @@ body {
 
 .main-text p {
   color: var(--color-soft-blue);
-  opacity: 0.6;
-  font-size: 1.125rem;
+  opacity: 0.9;
+  font-size: 1rem;
   margin: 0;
   line-height: 24px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+}
+
+.days {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.days span {
+  color: var(--color-soft-blue);
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+.ethereum {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.days img,
+.ethereum img {
+  padding-right: 7px;
+}
+
+.ethereum span {
+  color: var(--color-cyan);
+  font-weight: 400;
 }
 
 .details {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 20px 0;
-  border-bottom: 1px solid rgba(47, 65, 91, 0.1);
+  padding: 24px 0;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(47, 65, 91, 0.7);
 }
 
 .avatar {
   display: flex;
   align-items: center;
-  padding: 20px 0;
+  padding: 16px 0 30px 0;
 }
 
 .avatar img {
-  width: 40px;
-  padding-right: 20px;
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 .avatar p {
-  display: inline-block;
+  padding-left: 12px;
+  font-size: 1rem;
 }
 
+em {
+  font-style: normal;
+  color: var(--color-white);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
