@@ -49,12 +49,35 @@ body {
   display: flex;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 8px;
 }
 
 .hero .image img {
   width: 88%;
-  margin-top: 20px;
   border-radius: 8px;
+}
+
+.hero .image img.view-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 20%;
+  transition: opacity 0.3s;
+  color: var(--color-cyan);
+}
+
+.hero .image img.equilibrium {
+  display: block;
+}
+
+.hero .image:hover img.view-icon {
+  opacity: 0.7;
+  cursor: pointer;
+  color: var(--color-cyan);
 }
 
 .main-text {
@@ -70,6 +93,11 @@ body {
   font-weight: 600;
   font-size: 1.125rem;
   letter-spacing: 0.7px;
+}
+
+.main-text h1:hover {
+  cursor: pointer;
+  color: var(--color-cyan);
 }
 
 .main-text p {
@@ -107,7 +135,7 @@ body {
 
 .ethereum span {
   color: var(--color-cyan);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .details {
@@ -139,4 +167,10 @@ body {
 em {
   font-style: normal;
   color: var(--color-white);
+}
+
+em:hover {
+  cursor: pointer;
+  color: var(--color-cyan);
+  font-weight: 400;
 }
