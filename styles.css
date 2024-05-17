@@ -57,7 +57,10 @@ body {
 }
 
 .main-part .p {
-    
+  font-weight: 700;
+}
+.main-part .p {
+  font-size: 1.125 rem;
 }
 
 .attribution {
